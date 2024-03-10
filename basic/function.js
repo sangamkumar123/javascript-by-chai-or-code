@@ -16,7 +16,7 @@ const myObject = {
 }
 
 function pass_object(Any_Object){
-    console.log(Any_Object);
+    // console.log(Any_Object);
 }
 // pass_object(myObject)
 
@@ -27,3 +27,8 @@ pass_object(
     roll_no : 150
     }
 )
+
+function square(num){
+    return num * num
+}
+console.log(square(3))
